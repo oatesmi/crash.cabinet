@@ -1,4 +1,4 @@
-class DocController < ApplicationController
+class DocsController < ApplicationController
   def index
   end
 
@@ -26,5 +26,5 @@ class DocController < ApplicationController
   end
 
   def doc_params
-  end 
+  end
 end

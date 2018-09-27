@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe DocController, type: :controller do
+RSpec.describe DocsController, type: :controller do
 
   describe "GET #index" do
     it "returns http success" do
