@@ -5,6 +5,11 @@ admin_user = User.create!(
   password: 'password'
 )
 
+test_dummy = User.create!(
+  email: 'fake@fake.com',
+  password: 'password'
+)
+
 10.times do
   User.create!(
     email: Faker::Internet.safe_email,
