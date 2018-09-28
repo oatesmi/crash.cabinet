@@ -1,7 +1,7 @@
 require 'faker'
 
 admin_user = User.create!(
-  email: 'oatesmi.74@gmail.com'
+  email: 'oatesmi.74@gmail.com',
   password: 'password'
 )
 
