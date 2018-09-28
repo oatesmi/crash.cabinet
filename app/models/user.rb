@@ -5,4 +5,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   has_many :docs
+  validates :email, uniqueness: true
+  validates_associated :docs
 end

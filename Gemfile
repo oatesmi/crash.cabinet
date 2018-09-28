@@ -18,9 +18,11 @@ gem 'simple_form', '~> 4.0', '>= 4.0.1'
 gem 'haml', '~> 5.0', '>= 5.0.4'
 gem 'haml-rails', '~> 1.0'
 
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.8'
+  gem 'faker', '~> 1.9', '>= 1.9.1'
 end
 
 group :development do
