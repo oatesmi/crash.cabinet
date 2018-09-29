@@ -23,7 +23,7 @@ users = User.all
   Doc.create!(
     user: users.sample,
     title: Faker::Lovecraft.deity,
-    content: Faker::Lovecraft.paragraphs(6)
+    content: Faker::Lovecraft.paragraph(14)
   )
 end
 
