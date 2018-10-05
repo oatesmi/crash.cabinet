@@ -6,5 +6,4 @@ class User < ApplicationRecord
 
   has_many :docs
   validates :email, uniqueness: true
-  validates_associated :docs
 end
